@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="sq">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grand Vista Hotel - Luxury Accommodation</title>
+    <title>Hotel Grand Vista - Akomodim Luksoz</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
@@ -12,74 +12,76 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
   <body>
    
     <nav class="navbar">
       <div class="nav-container">
-        <div class="logo">Grand Vista Hotel</div>
+        <div class="logo">Hotel Grand Vista</div>
         <ul class="nav-menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#rooms">Rooms</a></li>
-          <li><a href="#amenities">Amenities</a></li>
-          <li><a href="#reservation">Book Now</a></li>
+          <li><a href="#home">Ballina</a></li>
+          <li><a href="#rooms">Dhomat</a></li>
+          <li><a href="#amenities">Shërbimet</a></li>
+          <li><a href="#reservation">Rezervo Tani</a></li>
         </ul>
-        <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+        <button class="mobile-menu-toggle" aria-label="Ndrysho menynë">☰</button>
       </div>
     </nav>
 
   
     <section id="home" class="hero">
       <div class="hero-content">
-        <h1>Welcome to Grand Vista Hotel</h1>
-        <p>Experience luxury and comfort in the heart of the city</p>
-        <a href="#reservation" class="cta-button">Book Your Stay</a>
+        <h1>Mirë se vini në Hotel Grand Vista</h1>
+        <p>Përjetoni luksin dhe rehati në zemër të qytetit</p>
+        <a href="#reservation" class="cta-button">Rezervoni Qëndrimin</a>
       </div>
     </section>
 
   
     <section id="rooms" class="rooms-section">
       <div class="container">
-        <h2 class="section-title">Our Rooms</h2>
+        <h2 class="section-title">Dhomat Tona</h2>
         <div class="rooms-grid">
           <div class="room-card">
-            <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Standard Room">
+            <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Dhoma Standarde">
             <div class="room-info">
-              <h3>Standard Room</h3>
-              <p class="room-price">$129/night</p>
-              <p>Comfortable room with essential amenities, perfect for business travelers.</p>
+              <h3>Dhoma Standarde</h3>
+              <p class="room-price">$129/natë</p>
+              <p>Dhoma komode me pajisjet thelbësore, e përshtatshme për udhëtarët e biznesit.</p>
               <ul class="room-features">
-                <li>Queen-size bed</li>
-                <li>Free Wi-Fi</li>
-                <li>24/7 Room Service</li>
+                <li>Shtrat Queen</li>
+                <li>Wi-Fi Falas</li>
+                <li>Shërbim në dhomë 24/7</li>
               </ul>
             </div>
           </div>
 
           <div class="room-card">
-            <img src="https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Deluxe Room">
+            <img src="https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Dhoma Deluxe">
             <div class="room-info">
-              <h3>Deluxe Room</h3>
-              <p class="room-price">$199/night</p>
-              <p>Spacious room with stunning city views and premium amenities.</p>
+              <h3>Dhoma Deluxe</h3>
+              <p class="room-price">$199/natë</p>
+              <p>Dhoma e gjerë me pamje mbresëlënëse të qytetit dhe shërbime premium.</p>
               <ul class="room-features">
-                <li>King-size bed</li>
-                <li>City view</li>
+                <li>Shtrat King</li>
+                <li>Pamje qyteti</li>
                 <li>Mini bar</li>
               </ul>
             </div>
           </div>
 
           <div class="room-card">
-            <img src="https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Suite">
+            <img src="https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Suitë Ekzekutive">
             <div class="room-info">
-              <h3>Executive Suite</h3>
-              <p class="room-price">$349/night</p>
-              <p>Luxurious suite with separate living area and exclusive amenities.</p>
+              <h3>Suitë Ekzekutive</h3>
+              <p class="room-price">$349/natë</p>
+              <p>Suitë luksoze me zonë të veçantë ndenjeje dhe shërbime ekskluzive.</p>
               <ul class="room-features">
-                <li>King-size bed</li>
-                <li>Living room</li>
-                <li>Jacuzzi</li>
+                <li>Shtrat King</li>
+                <li>Dhoma ndenjeje</li>
+                <li>Xhakuzi</li>
               </ul>
             </div>
           </div>
@@ -89,61 +91,74 @@
 
    
     <section id="amenities" class="amenities-section">
-      <div class="container">
-        <h2 class="section-title">Hotel Amenities</h2>
-        <div class="amenities-grid">
-          <div class="amenity-item">
-            <div class="amenity-icon">🏊</div>
-            <h3>Swimming Pool</h3>
-            <p>Outdoor pool with poolside bar</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenity-icon">🍽️</div>
-            <h3>Restaurant</h3>
-            <p>Fine dining with international cuisine</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenity-icon">💆</div>
-            <h3>Spa & Wellness</h3>
-            <p>Full-service spa and fitness center</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenity-icon">🅿️</div>
-            <h3>Free Parking</h3>
-            <p>Complimentary valet parking</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenity-icon">📶</div>
-            <h3>Free Wi-Fi</h3>
-            <p>High-speed internet throughout</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenity-icon">🎯</div>
-            <h3>Conference Rooms</h3>
-            <p>Business center and meeting spaces</p>
-          </div>
-        </div>
+  <div class="container">
+    <h2 class="section-title">Shërbimet e Hotelit</h2>
+
+    <div class="amenities-grid">
+
+      <div class="amenity-item">
+        <i class="fa-solid fa-person-swimming amenity-icon"></i>
+        <h3>Pishinë</h3>
+        <p>Pishinë e jashtme me bar pranë pishinës</p>
       </div>
-    </section>
+
+      <div class="amenity-item">
+        <i class="fa-solid fa-utensils amenity-icon"></i>
+        <h3>Restorant</h3>
+        <p>Kuzhinë e rafinuar me gatime ndërkombëtare</p>
+      </div>
+
+      <div class="amenity-item">
+        <i class="fa-solid fa-spa amenity-icon"></i>
+        <h3>Spa & Wellness</h3>
+        <p>Spa me shërbime të plota dhe qendër fitnesi</p>
+      </div>
+
+      <div class="amenity-item">
+        <i class="fa-solid fa-square-parking amenity-icon"></i>
+        <h3>Parkim Falas</h3>
+        <p>Parkim valet falas</p>
+      </div>
+
+    
+              <div class="amenity-item">
+        <i class="fa-solid fa-wifi amenity-icon"></i>
+        <h3>Wi-Fi Falas</h3>
+        <p>Internet me shpejtësi të lartë në të gjithë ambientet</p>
+      </div>
+
+      <div class="amenity-item">
+        <i class="fa-solid fa-briefcase amenity-icon"></i>
+        <h3>Dhomat e Konferencës</h3>
+        <p>Qendër biznesi dhe hapësira takimesh</p>
+      </div>
+     
+      
+
+    </div>
+  </div>
+</section>
+
 
     <section id="reservation" class="reservation-section">
       <div class="container">
-        <h2 class="section-title">Make a Reservation</h2>
+        <h2 class="section-title">Bëni një Rezervim</h2>
         <div class="reservation-content">
           <div class="reservation-info">
-            <h3>Book Your Perfect Stay</h3>
-            <p>Fill out the form to reserve your room. We'll confirm your booking within 24 hours.</p>
+            <h3>Rezervoni Qëndrimin e Përkryer</h3>
+            <p>Plotësoni formularin për të rezervuar dhomën tuaj. Ne do të konfirmojmë rezervimin tuaj brenda 24 orëve.</p>
             <div class="contact-info">
-              <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+              <p><strong>Telefon:</strong> +383 49 857 489</p>
               <p><strong>Email:</strong> reservations@grandvista.com</p>
-              <p><strong>Address:</strong> 123 Luxury Avenue, City Center</p>
+              <p><strong>Adresa:</strong> Rruga Bill Clinton, Peje</p>
             </div>
           </div>
 
-          <form id="reservationForm" class="reservation-form">
+          <form id="reservationForm" action="save_reservation.php" method="POST" class="reservation-form">
+
             <div class="form-row">
               <div class="form-group">
-                <label for="guestName">Full Name *</label>
+                <label for="guestName">Emri i plotë *</label>
                 <input type="text" id="guestName" name="guestName" required>
               </div>
               <div class="form-group">
@@ -154,44 +169,60 @@
 
             <div class="form-row">
               <div class="form-group">
-                <label for="phone">Phone Number *</label>
+                <label for="phone">Numri i telefonit *</label>
                 <input type="tel" id="phone" name="phone" required>
               </div>
               <div class="form-group">
-                <label for="guests">Number of Guests *</label>
+                <label for="guests">Numri i mysafirëve *</label>
                 <input type="number" id="guests" name="guests" min="1" max="4" value="1" required>
               </div>
             </div>
 
             <div class="form-row">
               <div class="form-group">
-                <label for="checkIn">Check-in Date *</label>
+                <label for="checkIn">Data e hyrjes *</label>
                 <input type="date" id="checkIn" name="checkIn" required>
               </div>
               <div class="form-group">
-                <label for="checkOut">Check-out Date *</label>
+                <label for="checkOut">Data e daljes *</label>
                 <input type="date" id="checkOut" name="checkOut" required>
               </div>
             </div>
 
             <div class="form-group">
-              <label for="roomType">Room Type *</label>
+              <label for="roomType">Lloji i dhomës *</label>
               <select id="roomType" name="roomType" required>
-                <option value="">Select a room type</option>
-                <option value="standard">Standard Room - $129/night</option>
-                <option value="deluxe">Deluxe Room - $199/night</option>
-                <option value="suite">Executive Suite - $349/night</option>
+                <option value="">Zgjidh një lloj dhome</option>
+                <option value="standard">Dhoma Standarde - $129/natë</option>
+                <option value="deluxe">Dhoma Deluxe - $199/natë</option>
+                <option value="suite">Suitë Ekzekutive - $349/natë</option>
               </select>
             </div>
+            <div class="form-group">
+  <label>Metoda e Pagesës *</label>
+
+  <div class="payment-options">
+    <label>
+      <input type="radio" name="payment_method" value="cash" checked>
+      Pagesë me Para (Cash)
+    </label>
+
+    <label>
+      <input type="radio" name="payment_method" value="card">
+      Pagesë me Kartelë
+    </label>
+  </div>
+</div>
+
 
             <div class="form-group">
-              <label for="specialRequests">Special Requests</label>
-              <textarea id="specialRequests" name="specialRequests" rows="4" placeholder="Any special requirements or requests..."></textarea>
+              <label for="specialRequests">Kërkesa Speciale</label>
+              <textarea id="specialRequests" name="specialRequests" rows="4" placeholder="Çdo kërkesë ose kërkesë speciale..."></textarea>
             </div>
 
             <button type="submit" class="submit-button">
-              <span class="button-text">Complete Reservation</span>
-              <span class="button-loader" style="display: none;">Processing...</span>
+              <span class="button-text">Përfundo Rezervimin</span>
+              <span class="button-loader" style="display: none;">Po përpunohet...</span>
             </button>
 
             <div id="formMessage" class="form-message"></div>
@@ -205,27 +236,27 @@
       <div class="container">
         <div class="footer-content">
           <div class="footer-section">
-            <h3>Grand Vista Hotel</h3>
-            <p>Your home away from home. Experience luxury, comfort, and exceptional service.</p>
+            <h3>Hotel Grand Vista</h3>
+            <p>Shtëpia juaj jashtë shtëpisë. Përjetoni luks, rehati dhe shërbim të jashtëzakonshëm.</p>
           </div>
           <div class="footer-section">
-            <h3>Quick Links</h3>
+            <h3>Lidhje të Shpejta</h3>
             <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#rooms">Rooms</a></li>
-              <li><a href="#amenities">Amenities</a></li>
-              <li><a href="#reservation">Book Now</a></li>
+              <li><a href="#home">Ballina</a></li>
+              <li><a href="#rooms">Dhomat</a></li>
+              <li><a href="#amenities">Shërbimet</a></li>
+              <li><a href="#reservation">Rezervo Tani</a></li>
             </ul>
           </div>
           <div class="footer-section">
-            <h3>Contact</h3>
-            <p>+1 (555) 123-4567</p>
+            <h3>Kontakt</h3>
+            <p>+383 49 857 489</p>
             <p>reservations@grandvista.com</p>
-            <p>123 Luxury Avenue, City Center</p>
+            <p>Rruga Bill Clinton, Peje</p>
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2024 Grand Vista Hotel. All rights reserved.</p>
+          <p>&copy; 2024 Hotel Grand Vista. Të gjitha të drejtat e rezervuara.</p>
         </div>
       </div>
     </footer>

@@ -1,6 +1,4 @@
-// ======================
-// Helper functions
-// ======================
+
 
 function showMessage(type, message) {
   const formMessage = document.getElementById('formMessage');
@@ -99,7 +97,7 @@ async function handleFormSubmit(e) {
 
   const formData = new FormData(e.target);
 
-  // Client-side date validation
+  
   const checkIn = new Date(formData.get('checkIn'));
   const checkOut = new Date(formData.get('checkOut'));
 
